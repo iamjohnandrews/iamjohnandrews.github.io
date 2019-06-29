@@ -480,7 +480,7 @@ ul#navigation ul {
 
 #home-revo-slider1 .tp-bullets.tp-thumbs .bullet:after {
    content:"";
-   display:block;
+   display:none;
    position:absolute;
    top:0;
    bottom:0;

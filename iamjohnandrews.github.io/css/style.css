@@ -856,7 +856,7 @@ ul#navigation ul {
 }
 
 .bxslider li {
-	background-color: rgba(124,203,252,.5);	
+	background-color: #324616;	
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F8CC63F,endColorstr=#7F8CC63F);
 	cursor: pointer;
 	margin:0 0 20px 0;
@@ -913,7 +913,7 @@ ul#navigation ul {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #bde5fd;
+    border-bottom: 10px solid #324616;
 }
 
 .bxslider-active .bxslider-li-wrap:before {
@@ -2959,7 +2959,7 @@ address {
 	margin-left: 30px;
 	border-style: solid;
 	border-width: 5px;
-	border-color: #bde5fd;
+	border-color: #324616;
 	border-color: rgba(124,203,252,.5);
 }
 
@@ -2971,7 +2971,7 @@ address {
 	width: 386px;
 	border-style: solid;
 	border-width: 5px 2px;
-	border-color: #bde5fd;
+	border-color: #324616;
 	border-color: rgba(124,203,252,.5);
 }
 
@@ -3122,7 +3122,7 @@ address {
 }
 
 .pricing-tables.four-cols .pr-features li {
-	border-top: 1px solid #bde5fd;
+	border-top: 1px solid #324616;
 }
 
 .pricing-tables.three-cols .pr-features li {
@@ -4088,7 +4088,7 @@ address {
 
 .bxslider .hover-effect-image {
 	height: 150px;
-	border: 5px solid #bde5fd;
+	border: 5px solid #324616;
    	border: 5px solid rgba(124,203,252,.5);
 }
 

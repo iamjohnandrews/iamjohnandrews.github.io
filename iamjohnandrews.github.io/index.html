@@ -6,8 +6,8 @@
 <!--[if lt IE 8]>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  				
 <![endif]-->																	<!--Edge mode for IE8+-->
-<title>Appic - Home page</title>												<!--Change Title-->
-<meta name="description" content="describe your page">							<!--Change content-->
+<title>WCG - Home page</title>												<!--Change Title-->
+<meta name="description" content="Walton Consulting Group conducts investment management research in order to find the perfect portfolio manager for our clients">							<!--Change content-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">			<!--Scale a webpage to a 1:1 pixel-->
 <link href="http://fonts.googleapis.com/css?family=Oswald|PT+Sans:400,700,400italic" rel="stylesheet">	<!--Fonts styles-->
 <link rel="stylesheet" href="css/bootstrap.min.css">							<!--Bootstrap styles-->
@@ -21,7 +21,11 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  			
+<!-- Favicon-->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 <body id="home-revo-slider1">
 	<!--[if lt IE 8]>
@@ -30,23 +34,13 @@
 
 <!--**************************Begin Header*****************************-->
 <header class="header-height">
-    <div class="top-nav">
-        <div class="container">
-            <p class="pull-left inline hidden-phone">
-                Get acquainted with amazing app <a href="#">here</a>
-            </p>
-            <p class="pull-right inline">
-                Have any questions? Just call us 1-222-345-6789
-            </p>
-        </div>
-    </div>
     <div class="main-nav-wrap">
     	<div class="blue-line-wrap">
         	<nav class="main-navbar container">     
                 <div class="logo pull-left">
                     <a href="index.html">
-                    <!--<img src="img/logo.png" alt="Appic logo"> !!!remove comments for choose image and add comment to h1!!!-->
-                        <h1 class="logo-text">A<span class="blue-text">pp</span>ic</h1>					
+                    <img src="img/logo.png" alt="Walton Consulting Group logo">  <!-- !!!remove comments for choose image and add comment to h1!!! -->
+                        <!-- <h1 class="logo-text">Walton<span class="lime-green-text">Consulting</span>Group</h1>					 -->
                     </a>
                 </div>
                	<div id="navigation-box"  class="pull-right">
@@ -54,60 +48,8 @@
                         <span class="menu-icon"></span>
                     </a>
                     <ul id="navigation">
-                        <li class="active-item">
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="index.html">Home</a>
-                            <ul>
-                                <li><a href="index2.html">Home with revo slider</a></li>
-                                <li><a href="index3.html">Home with revo slider 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="#">Pages</a>
-                            <ul>
-                                <li><a href="coming-soon.html">Coming soon</a></li>
-                                <li><a href="how-it-works.html">How it works</a></li>
-                                <li><a href="page-elements.html">Page elements</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="services.html">Services</a>
-                            <ul>
-                                <li><a href="prices.html">Price plans</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                        	<span class="sub-nav-toggle plus"></span>
-                            <a href="#">Blog</a>
-                            <ul>
-                                <li><a href="blog-style1.html">Blog style 1</a></li>
-                                <li><a href="blog-style2.html">Blog style 2</a></li>
-                                <li><a href="blog-style3.html">Blog style 3</a></li>
-                                <li><a href="single-post.html">Single post</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="#">Gallery</a>
-                            <ul>
-                                <li><a href="gallery-random.html">Gallery random</a></li>
-                                <li><a href="gallery-columns2.html">Gallery columns 2</a></li>
-                                <li><a href="gallery-columns3.html">Gallery columns 3</a></li>
-                                <li><a href="case-studies.html">Case studies</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span class="sub-nav-toggle plus"></span>
-                            <a href="shop-catalogue.html">Shop</a>
-                            <ul>
-                                <li><a href="single-product.html">Single product</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html#pageBottom">About</a></li>
+                        <li><a href="index.html#pageBottom">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -120,9 +62,9 @@
         <div class="banner" >
             <ul>
                 <!-- THE FIRST SLIDE -->
-                <li data-transition="turnoff" data-slotamount="6"  data-masterspeed="300" data-link="#" data-target="_blank" data-slideindex="back" data-thumb="http://placehold.it/340x212">
+                <li data-transition="turnoff" data-slotamount="6"  data-masterspeed="300" data-target="_blank" data-slideindex="back" data-thumb="">
                     <!-- THE MAIN IMAGE IN THE SLIDE -->
-                    <img src="http://placehold.it/2320x900" >
+                    <img src="img/oceanPhotographer.png" >
                     <!-- THE CAPTIONS OF THE FIRST SLIDE -->
                     <div class="caption large-text sfb stt" 
                         data-x="center" data-y="center" 
@@ -132,22 +74,22 @@
                         data-endeasing="easeOutExpo" 
                         data-easing="easeOutExpo"
                         data-voffset="-15">
-                        <span>Appic here to help you</span>
+                        <span>Walton Consulting Group is here to help</span>
                     </div>    
-                    <div class="caption sft stb"
+                    <!-- <div class="caption sft stb"
                          data-x="center"
                          data-y="265"
                          data-speed="600"
                          data-start="2100"
                          data-end="7300" 
                          data-easing="easeOutExpo"  ><a class="btn btn-danger" href="#">Check Services</a>
-                    </div>                           
+                    </div>                            -->
                 </li>
     
                 <!-- THE SECOND SLIDE -->
-                <li data-transition="flyin" data-slotamount="5" data-masterspeed="300" data-link="#" data-target="_blank" data-delay="9400" data-thumb="http://placehold.it/340x212">
-                    <img src="http://placehold.it/2320x900" >
-                    <div class="caption lfl ltl revo-img1"
+                <li data-transition="flyin" data-slotamount="5" data-masterspeed="300" data-target="_blank" data-delay="9400" data-thumb="">
+                    <img src="img/treeMoon.png" >
+                    <!-- <div class="caption lfl ltl revo-img1"
                          data-x="90"
                          data-y="bottom"
                          data-speed="600"
@@ -164,7 +106,7 @@
                          data-start="1400"
                          data-easing="easeOutExpo" 
                          data-end="7200" data-endspeed="300" data-endeasing="easeInSine" >responsive & Bootstrap based
-                    </div>
+                    </div> -->
                     <div class="caption text sfb stb"
                          data-x="550"
                          data-y="140"
@@ -172,31 +114,29 @@
                          data-start="1700"
                          data-easing="easeOutExpo" 
                          data-end="7400" data-endspeed="300" 
-                         data-endeasing="easeInSine" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Donec mollis quis dui ut<br>  vulputate. Suspendisse laoreet, purus a sodales feugiat, nulla dui 
-                         auctor magna, sit<br>  amet convallis lacus eros eu elit.
+                         data-endeasing="easeInSine" > Expert analysis and an extensive investment manager network makes WCG a great advisor.
                     </div>
-                    <div class="caption lft ltb"
+                    <!-- <div class="caption lft ltb"
                          data-x="550"
                          data-y="230"
                          data-speed="600"
                          data-start="2000"
                          data-easing="easeOutExpo" 
                          data-end="7600" data-endspeed="600" 
-                         data-endeasing="easeInSine" ><a class="btn btn-primary" href="#">Learn More</a>
-                    </div>
+                         data-endeasing="easeInSine" ><a class="btn btn-primary" href="#">Learn about us</a>
+                    </div> -->
                	</li>
 
                 <!-- THE THIRD SLIDE -->
-                <li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="http://placehold.it/340x212">
-                    <img src="http://placehold.it/2320x900" >
+                <li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="">
+                    <img src="img/desert.png" >
                     <div class="caption title2 sft stb"
                              data-x="center"
                              data-y="160"
                              data-speed="300"
                              data-start="1400"
                              data-easing="easeOutExpo" 
-                             data-end="7200" data-endspeed="300" data-endeasing="easeInSine" >freedom in use and customization
+                             data-end="7200" data-endspeed="300" data-endeasing="easeInSine" >Customized investment management search
                     </div>
                     <div class="caption text-block sfb stb"
                              data-x="center"
@@ -206,8 +146,8 @@
                              data-easing="easeOutExpo" 
                              data-end="7400" data-endspeed="300" 
                              data-endeasing="easeInSine">
-                                <div class="inner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec mollis quis dui ut vulputate. Suspendisse laoreet, purus a sodales
-                                feugiat,<br> nulla dui auctor magna, sit amet convallis lacus eros eu elit.</div>
+                             <div class="inner-text">The best customer service combined iwth decades of experience provides excellent results and additional alpha for your funds.
+                                <br> Learn more about WCG's search process and how we have been able to pinpoint the right investment managers.</div>
                     </div>
                     <div class="caption square lft ltb"
                              data-x="center"
@@ -225,110 +165,80 @@
     </div>
 </section><!--**************************End Revolution slider*****************************-->
 <div class="white-wrap">
-<!--**************************Begin Promobox*****************************-->
-	<div class="container hidden-phone">
-    	<div class="promobox-wrap wrap-position">
-        	<div class="promobox">
-        		<p class="pull-left"><strong>Promo box here.</strong> Praesent sed tristique massa. Aenean iaculis diam nec.</p>
-            	<a href="http://themeforest.net/user/olechka/portfolio" class="btn btn-info btn-large-maxi pull-right">Buy Template</a>
-        	</div>
-        </div>
-    </div><!--**************************End Promobox*****************************-->
-<!--**************************Begin Benefits*****************************-->    
-    <section class="container benefits-wrap grey-lines">
-    	<div class="row">
-        	<div class="span7 benefits">
-            	<h2 class="section-title">Appic<span class="blue-text">Benefits</span></h2>
-                <ul class="camera_pag_ul">
-                	<li class="pag_nav_0 simple-text-14"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Nunc sit amet orci sed lorem blandit lobortis quis sed dui. Quisque eget est sem, vel semper purus. Nullam sed lacus eu justo sollicitudin faucibus. Duis gravida semper vehicula.</li>
-                    <li class="pag_nav_1 simple-text-14"><strong>Vivamus tristique blandit dapibus.</strong> Cras at erat nisi. Cras mi orci, aliquet quis tempor et, bibendum a odio. Vivamus eu felis at felis porta pharetra. Praesent mattis enim purus.</li>
-                    <li class="pag_nav_2 simple-text-14"><strong>Cras interdum, urna nec convallis blandit, nibh libero pharetra ante, in iaculis nisl nunc eget ipsum.</strong> Duis non consequat elit. Aliquam fringilla porttitor sem, ut convallis lorem egestas vel. Aliquam quis purus sapien. Ut commodo porta orci, a aliquam mi semper luctus.</li>
-                    <li class="pag_nav_3 simple-text-14"><strong>Fusce aliquet euismod luctus.</strong> Aliquam scelerisque tincidunt risus nec pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed tristique massa. Aenean iaculis diam nec ligula ullamcorper eu tempus dolor ullamcorper.</li> 
-                </ul>
-            </div>
-            <div class="span3 offset1">
-                <ul class="carousel" id="carousel">
-                    <li><img src="img/iPhone-blue.png" alt="carousel-img1"></li>
-                    <li><img src="img/iPhone-pink.png" alt="carousel-img2"></li>
-                    <li><img src="img/iPhone-dark.png" alt="carousel-img3"></li>                           
-                </ul>               
-            </div>
-        </div>
-    </section><!--**************************End Benefits*****************************-->
 <!--**************************Begin Services*****************************-->    
     <div class="services-wrap horizontal-blue-lines">
     	<section class="container services">
-    		<h2 class="section-title">Available<span class="blue-text">Services</span></h2>
+    		<h2 class="section-title">Walton Consulting Group<span class="lime-green-text">Services</span></h2>
             <ul class="bxslider">
             	<li class="bxslider-active text-center" data-order="1">
                 	<div class="bxslider-li-wrap">
                     	<span class="quick-support-icon"></span>
-                        <h3>Quick Support</h3>
+                        <h3>Research</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="2">
                 	<div class="bxslider-li-wrap">
                     	<span class="multiple-users-icon"></span>
-                        <h3>Multiple Users</h3>
+                        <h3>Insight</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="3">
                 	<div class="bxslider-li-wrap">
                     	<span class="cloud-computing-icon"></span>
-                        <h3>Cloud Computing</h3>
+                        <h3>Culture</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="4">
                     <div class="bxslider-li-wrap">
                     	<span class="cost-reduction-icon"></span>
-                        <h3>Cost Reduction</h3>
+                        <h3>Expertise</h3>
                     </div>
                 </li>
-                <li class="text-center" data-order="5">
+                <!-- <li class="text-center" data-order="5">
                 	<div class="bxslider-li-wrap">
                     	<span class="quick-support-icon"></span>
-                        <h3>Quick Support</h3>
+                        <h3>Research</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="6">
                 	<div class="bxslider-li-wrap">
                     	<span class="multiple-users-icon"></span>
-                        <h3>Multiple Users</h3>
+                        <h3>Insight</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="7">
                 	<div class="bxslider-li-wrap">
                     	<span class="cloud-computing-icon"></span>
-                        <h3>Cloud Computing</h3>
+                        <h3>Culture</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="8">
                     <div class="bxslider-li-wrap">
                     	<span class="cost-reduction-icon"></span>
-                        <h3>Cost Reduction</h3>
+                        <h3>Expertise</h3>
                     </div>
                 </li>
                 <li class="text-center" data-order="9">
                 	<div class="bxslider-li-wrap">
                     	<span class="quick-support-icon"></span>
-                        <h3>Quick Support</h3>
+                        <h3>Research</h3>
                     </div>
-                </li>
+                </li> -->
             </ul>
             <ul class="bxslider-description">
             	<li class="description-active">
-                	<p class="simple-text-14"><strong>Fusce aliquet euismod luctus.</strong> Aliquam scelerisque tincidunt risus nec pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed tristique massa. Aenean iaculis diam nec ligula ullamcorper eu tempus dolor ullamcorper. Morbi in nisi tincidunt neque gravida facilisis.  Pellentesque mattis nisl eget neque scelerisque adipiscing. Vestibulum euismod commodo odio sit amet congue. Donec ut sem vel mauris sodales egestas. Nulla eget lorem vitae diam ullamcorper tincidunt ut vel est. </p>
+                	<p class="simple-text-14"><strong>Intense and extensive due diligence.</strong> Our search process evaluates not only the performance of each manager, but also the investment management organization. This dual evaluation allows us to give our clients a clear and accurate picture of their investment managers. The suitability of an investment opportunity given our clients’ specific requirements and needs also drives our manager selection process. We are dedicated to conducting searches in both traditional and alternative asset classes. </p>
                 </li>
                 <li>
-                	<p class="simple-text-14"><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</strong> Sed adipiscing fermentum auctor. Mauris convallis mattis risus vitae cursus. Quisque dapibus venenatis lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu dui id sapien gravida accumsan. Duis ultrices scelerisque velit eget mollis. Nam rhoncus auctor tortor, eget consectetur magna viverra a. Phasellus non mauris ipsum, in vulputate risus. Praesent non ligula lectus. </p>
+                	<p class="simple-text-14"><strong>Brining context and wholistic interpretation.</strong> What seperates WCG is our focus on careful interpretation of results. Rather than simply report on clients’ rates of return, our associates dig deeper, bringing added value to our performance monitoring services. This analysis is what clients will find in our performance reports and our collaborative discussions. </p>
                 </li>
                 <li>
-                	<p class="simple-text-14"><strong>Aenean facilisis tincidunt nibh, ac condimentum urna auctor ac. Nulla id ultricies ligula. </strong>Nulla ornare placerat eros, non aliquet quam ullamcorper nec. Morbi porta nulla sed elit rhoncus lobortis. Duis sit amet ante a augue pretium cursus pulvinar vel velit. Cras at nunc in libero mollis dignissim in ac metus. Pellentesque venenatis lobortis purus, eu scelerisque neque mattis id. Curabitur ut erat odio, nec posuere lacus. Vivamus vitae pulvinar felis. Duis faucibus nibh pulvinar ipsum fermentum blandit. </p>
+                	<p class="simple-text-14"><strong>We believe that culture is a key element to an asset manager’s success. </strong> WCG spends countless hours speaking to a firm’s leadership and staff, in addition to data gathering and analysis to create a robust view of the firm. </p>
                 </li>
                 <li>
-                	<p class="simple-text-14"><strong>Aenean fermentum eros id purus volutpat id sodales turpis pellentesque.</strong> Donec sapien risus, aliquam quis dictum quis, vehicula vitae mauris. Proin cursus condimentum massa vitae molestie. Aenean nec ligula ante, quis aliquet eros. Aliquam sit amet egestas orci. Aliquam convallis, leo in varius imperdiet, mauris ante accumsan dui, ut faucibus leo purus vel tortor. Suspendisse in varius quam. Maecenas orci libero, dictum sit amet porta et, lobortis ut arcu. Vivamus dolor risus, dignissim vitae pharetra vitae, tincidunt in ligula. </p>
+                	<p class="simple-text-14"><strong>Take advice from consultants who have managed multi-billion dollar portfolios.</strong> Everyone has an opinion. What seperates WCG is our advisors have managed investment portfolios and have been in your exact same shoes. </p>
                 </li>
-                <li>
+                <!-- <li>
                 	<p class="simple-text-14"><strong>Donec sit amet odio non nunc elementum sagittis in eu felis. </strong>Integer feugiat mauris sed arcu euismod a rutrum dui dapibus. Ut id nisl metus. Aliquam dictum, turpis ac rutrum feugiat, felis magna fringilla felis, vel interdum velit turpis sed lorem. Cras sollicitudin est at elit pellentesque nec blandit dui tempus. Cras congue eros in ante lobortis ac dapibus odio dignissim. Aliquam quis massa a quam convallis porttitor. Phasellus a felis massa, quis facilisis leo. Phasellus vitae ligula eros, ac tincidunt metus.</p>
                 </li>
                 <li>
@@ -342,7 +252,7 @@
                 </li>
                 <li>
                 	<p class="simple-text-14"><strong>Nulla eget lorem vitae diam ullamcorper tincidunt ut vel est. </strong> Aliquam scelerisque tincidunt risus nec pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed tristique massa. Aenean iaculis diam nec ligula ullamcorper eu tempus dolor ullamcorper. Morbi in nisi tincidunt neque gravida facilisis.  Pellentesque mattis nisl eget neque scelerisque adipiscing. Vestibulum euismod commodo odio sit amet congue. Donec ut sem vel mauris sodales egestas. </p>
-                </li>                
+                </li>                 -->
             </ul>
     	</section>
     </div><!--**************************End Services*****************************-->
@@ -353,7 +263,7 @@
             <div class="pattern-wrap">
                 <div class="lines-wrap horizontal-grey-lines">
                     <section class="container universe">
-                        <h2 class="section-title pull-left">Welcome to APPIC<span>universe</span></h2>
+                        <h2 class="section-title pull-left">Welcome to WCG<span>Advisory</span></h2>
                         <ul class="ch-second-grid">
                             <li>
                                 <div class="ch-second-item">
@@ -365,9 +275,9 @@
                             </li>
                             <li>
                                 <div class="ch-second-item">
-                                    <h4>share</h4>
+                                    <h4>Learn</h4>
                                     <a href="#" class="ch-second-info">
-                                        <h4>share</h4>
+                                        <h4>Learn</h4>
                                     </a>
                                 </div>
                             </li>
@@ -385,9 +295,9 @@
             </div>
         </div>
     </div><!--**************************End Universe*****************************-->   
-<!--**************************Begin Client-say*****************************-->    
+<!--**************************Begin Client-say*****************************   
     <section class="container client-say grey-lines">
-    	<h2 class="section-title">Recently<span class="blue-text">Client says</span></h2>
+    	<h2 class="section-title">Recently<span class="lime-green-text">Client says</span></h2>
         	<ul class="client-say-slider">
            	<li>
                 <div class="client-photo-wrap pull-left">
@@ -435,59 +345,56 @@
                 <p class="simple-text-16"><em>Cras vel ligula justo, id condimentum libero. Aliquam erat volutpat. Nunc at erat eget urna semper semper sed sit amet tortor. Suspendisse urna nulla, ullamcorper non congue at, condimentum eu est. Nullam mattis erat ut enim bibendum sed gravida risus cursus. Etiam imperdiet sollicitudin ante, non rhoncus nunc pellentesque ut. Etiam velit lorem, iaculis quis malesuada congue, cursus at massa. Duis ut mauris a nunc tincidunt egestas.</em></p> 
             </li>            
         </ul>
-    </section><!--**************************End Client-say*****************************-->
+    </section>**************************End Client-say*****************************-->
 <!--**************************Begin Posts & Why choose*****************************-->    
     <section class="container posts-choose-wrap grey-lines"> 
         <span class="grey-vertical-line hidden-phone"></span>   	
         <div class="row">
         	<article class="span6 posts">
-            	<h2 class="article-title">Latest<span>post</span></h2>
+            	<h2 class="article-title">Founder message<span>WCG</span></h2>
                 <div class="image-wrap pull-left">
-                    <img src="http://placehold.it/160x160" alt="author">
-                    <a class="mask" href="#"></a>
+                    <img src="img/carolynnWaltonHeadshot.jpeg" alt="WCG founder">
                 </div>
                 
-                <h3><a class="link" href="#">Proin gravida dapibus metus, et pretium lorem accumsan suscipit.</a></h3>
-                <p class="date light-grey-text">February 26, 2013</p>
-                <p class="light-grey-text">Maecenas in purus sit amet nisl condimentum venenatis. Morbi fringilla imperdiet nisi, a rhoncus eros iaculis sed. Nulla eget libero eros, vitae fringilla nisi. In hac habitasse platea dictumst.  Suspendisse viverra velit eu ante tristique adipiscing mollis sapien lobortis. Quisque gravida scelerisque vehicula. 
-                	<a href="#" class="posts-arrow"></a>	
+                <h3><a class="link">Nice to meet you.</a></h3>
+                <p class="light-grey-text">We pride ourselves on our independence and objectivity, underscored by our transparent process. WCG is a leading advisory and solutions firm that helps clients manage risk. A fund’s performance is strongly tied to the experience, skill, and perspective of the people who manage it. That’s why our founder, Carolynn Walton, created a firm that focuses on manager evaluation after intemently understanding client needs.
                 </p>
             </article>
         	<div class="span6">
             	<div class="choose-appic-wpar">
-                <h2 class="article-title">Why choose<span>appic?</span></h2>
+                <h2 class="article-title">Why choose<span>Walton Consulting Group?</span></h2>
                 <div class="accordion" id="accordion2">
+                        <div class="accordion-group">
+                                <div class="accordion-heading">                        	
+                                    <a class="accordion-toggle accordion-plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">What is WCG?</a>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        Walton Consulting Group is an investment manager research advisor. We help you plan your fund find the right portfolio manager to match your financial goals, so that you save time and gain peace of mind, knowing that your money is in the right hands. When you work with the Walton Consulting Group, we learn about you and advise you on who should manage your fund.
+                                    </div>
+                                </div>
+                            </div>
                     <div class="accordion-group">
                         <div class="accordion-heading">                        	
-                            <a class="accordion-toggle accordion-minus" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Sed ac lacus eu arcu lacinia dictum.</a>
+                            <a class="accordion-toggle accordion-minus" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">Why should I work with WCG?</a>
                         </div>
                         <div id="collapseOne" class="accordion-body collapse in">
                             <div class="accordion-inner">
-                            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi nisi, pulvinar a mattis quis, tincidunt sed risus. Quisque ipsum felis, fringilla et tristique eget, mattis quis massa. 
+                            	If you try to do things yourself, you’re never sure if you’re making the right decisions. Many investment management search firms have unclear methods and do not understand the responsibilities and choices a fund manager handles day-to-day. WCG is lead by a former fund manager who made the exact same decisions and was faced with the exact same challenges. Understanding and empathy is what seperates Walton Consulting Group.
                             </div>
                         </div>
 					</div>
                     <div class="accordion-group">
                         <div class="accordion-heading">                        	
-                            <a class="accordion-toggle accordion-plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Fusce lacinia purus in urna tristique auctor.</a>
-                        </div>
-                        <div id="collapseTwo" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi nisi, pulvinar a mattis quis, tincidunt sed risus. Quisque ipsum felis, fringilla et tristique eget, mattis quis massa. 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-group">
-                        <div class="accordion-heading">                        	
-                            <a class="accordion-toggle accordion-plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Fusce vitae turpis elit.</a>
+                            <a class="accordion-toggle accordion-plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">What is WCG's search process?</a>
                         </div>
                         <div id="collapseThree" class="accordion-body collapse">
                             <div class="accordion-inner">
-                            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi nisi, pulvinar a mattis quis, tincidunt sed risus. Quisque ipsum felis, fringilla et tristique eget, mattis quis massa. 
+                            	It depends... Walton Consulting Group tailors it's search process to fit every client perfectly. Every engagement begins with a conversation with WCG asking a series of questions to better understand your organization, your fund, wour working style, and your investment objectives. From there, we can then formulate crafting a search tailered to your specific needs.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-group">
+                    <!-- <div class="accordion-group">
                         <div class="accordion-heading">                        	
                             <a class="accordion-toggle accordion-plus" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">Pellentesque habitant morbi tristique senectus et netus ac turpis egestas.</a>
                         </div>
@@ -496,7 +403,7 @@
                             	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisi nisi, pulvinar a mattis quis, tincidunt sed risus. Quisque ipsum felis, fringilla et tristique eget, mattis quis massa. 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 </div>
             </div>
@@ -504,51 +411,26 @@
     </section><!--**************************End Posts & Why choose*****************************-->
 </div>
 <!--**************************Begin Footer Widgets*****************************-->     
-<div class="footer-widget-wrap">
+<div id="pageBottom" class="footer-widget-wrap">
 	<section class="container footer-widget">
     	<div class="row">
         	<div class="span6 widget-news">
-            	<h3 class="widget-title">News from APPIC</h3>
-                <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Donec ut sem vel mauris sodales egestas.</p>
+            	<h3 class="widget-title">Connect with WCG</h3>
+                <!-- <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet quam augue. Donec ut sem vel mauris sodales egestas.</p>
                 <form name="email-form" id="email-form" class="input-wrap" action="#" novalidate>
                     <input type="email" name="input-email" id="input-email" placeholder="your email here" value="">
                     <input type="submit" id="submit-button" class="submit-button">
-                </form>
+                </form> -->
                 <address>
-                	<span class="widget-news-phone">+ 44 1225 324 980</span>
-                    <span class="widget-news-email"><a href="mailto:appic@gmail.com">appic@gmail.com</a></span>
-                    <span class="widget-news-address">101 West Street, New York, NY 12345</span>
+                    <span class="widget-news-email"><a href="mailto:carolynn@waltonconsultinggroup">carolynn@waltonconsultinggroup.com</a></span>
                 </address>
             </div>
-            <div class="span3 widget-tweets">
-            	<h3 class="widget-title">Latest Tweets</h3>
-                <ul id="twitter-feed" class="twitter_update_list"></ul>
-            </div>
-            <div class="span3 widget-flickr">
-            	<h3 class="widget-title">Flickr Stream</h3>
-                <ul id="flickr" class="flickr"></ul>
-            </div>
+        </div>
+        <div class="copyright pull-left">
+            <p>&copy; Walton Consulting Group, 2019. All rights reserved. <a href="http://www.soothsayerlabs.com">Done by Soothsayer Labs, Inc</a></p>
         </div>
     </section>
 </div><!--**************************End Footer Widgets*****************************-->
-<!--**************************Begin Footer*****************************-->     
-<div class="footer-wrap">
-	<div class="blue-line-wrap">
-		<footer class="container">
-        <ul class="social pull-right">
-        	<li title="pinterest" class="custom-tooltip blue-tooltip"><a href="http://pinterest.com/oliagozha/" class="pinterest-icon"></a></li>
-            <li title="google" class="custom-tooltip blue-tooltip"><a href="https://plus.google.com/u/0/100180333527158639883/posts" class="google-icon"></a></li>
-            <li title="linkedin" class="custom-tooltip blue-tooltip"><a href="http://ua.linkedin.com/pub/olia-gozha/49/b91/268" class="linkedin-icon"></a></li>
-            <li title="twitter" class="custom-tooltip blue-tooltip"><a href="http://twitter.com/@OliaGozha" class="twitter-icon"></a></li>
-            <li title="facebook" class="custom-tooltip blue-tooltip"><a href="http://www.facebook.com/people/@/http://www.facebook.com/olia.gozha" class="facebook-icon"></a></li>
-        </ul>
-    	<div class="copyright pull-left">
-        	<p>&copy; APPIC, 2013. All rights reserved. <a href="http://themeforest.net/user/olechka?ref=olechka">Done by Olia Gozha</a></p>
-        </div>
-    </footer>
-    </div>
-</div><!--**************************End Footer*****************************-->
-
 
 
 
